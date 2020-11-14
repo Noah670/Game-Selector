@@ -1,0 +1,3 @@
+C:/Users/Noah/CLionProjects/GameSelector/cmake-build-debug/CMakeFiles/GameSelector.dir
+C:/Users/Noah/CLionProjects/GameSelector/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Noah/CLionProjects/GameSelector/cmake-build-debug/CMakeFiles/rebuild_cache.dir

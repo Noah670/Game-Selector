@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Noah/CLionProjects/GameSelector/GameContent.cpp
+iostream
+-
+string
+-
+algorithm
+C:/Users/Noah/CLionProjects/GameSelector/algorithm
+cctype
+C:/Users/Noah/CLionProjects/GameSelector/cctype
+windows.h
+-
+vector
+-
+limits
+-
+shellapi.h
+C:/Users/Noah/CLionProjects/GameSelector/shellapi.h
+GameContent.h
+C:/Users/Noah/CLionProjects/GameSelector/GameContent.h
+
+C:/Users/Noah/CLionProjects/GameSelector/GameContent.h
+
