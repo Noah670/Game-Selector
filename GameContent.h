@@ -15,5 +15,16 @@ class GameContent {
 
 int gunsOrLightsabers();
 
+int pastGames();
+
+int presentGames();
+
+int timelessGames();
+
+int nearFuture();
+
+int farFuture();
+
+int transistor();
 
 #endif //GAMESELECTOR_GAMECONTENT_H

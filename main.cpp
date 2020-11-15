@@ -54,21 +54,17 @@ int displayFutureGames() {
         switch (userChoice) {
 
             case 1:
-                cout << "Cool near future, what are we doing?" << endl;
+                nearFuture();
                 break;
             case 2:
-                cout << "Has Artificial Intelligence reached or surpassed humans?";
+                farFuture();
                 break;
-
             case 3:
-                cout << "A timeline where the transistor was not invented?" << endl;
+                transistor();
                 break;
-
             case 4:
                 gunsOrLightsabers();
-                cout << "Awesome, you want lightsabers or guns?" << endl;
-                //break;
-
+                break;
 
         }
 
@@ -95,7 +91,7 @@ int main() {
         cout << " (1.) The past" << endl;
         cout << " (2.) The present" << endl;
         cout << " (3.) The future " << endl;
-        cout << " (4.) The games setting doesn't matter to me" << endl;
+        cout << " (4.) A timeless game" << endl;
         cout << " (5.) Exit Game Selector" << endl;
         cin >> userChoice;
 
@@ -114,18 +110,21 @@ int main() {
         switch (userChoice) {
 
             case 1:
-                cout << "You want the past setting!" << endl;
+                cout << "You want a game set in the past!" << endl;
+                pastGames();
                 break;
 
             case 2:
-                cout << "You want the present setting!" << endl;
+                cout << "You want a game set in the present!" << endl;
+                presentGames();
                 break;
             case 3:
-                cout << "You want a future setting" << endl;
+                cout << "You want a game set in the future" << endl;
                 displayFutureGames();
                 break;
             case 4:
-                cout << "You want any setting" << endl;
+                cout << "You want a timeless game" << endl;
+                timelessGames();
                 break;
 
         }
